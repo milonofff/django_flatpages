@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ flatpage.title }}</title>
+</head>
+<body>
+<h2>{{ flatpage.title }}</h2>
+<h3>А вот и Джанго:</h3>
+{{ flatpage.content }}
+{% include 'flatpages/inc.html' %}
+{{ flatpage.content }}
+</body>
+</html>
